@@ -6,4 +6,4 @@ data:
   MONGO_INITDB_DATABASE: "mydb"
   NODE_ENV: "production"
   PORT: "5001"
-  MONGODB_CONNECTIONSTRING: "mongodb://mongo-service:27017/${MONGO_INITDB_DATABASE}"
+  MONGODB_CONNECTIONSTRING: "mongodb://mongo-service:27017/mydb"
